@@ -14,7 +14,7 @@ public class AppConfig {
     public DriverManagerDataSource dataSource = new DriverManagerDataSource();
     private final String URL = "jdbc:postgresql://127.0.0.1:6666/qw";
     private final String user = "postgres";
-    private final String password = "fnxm3w8q";
+    private final String password = "";
 
     @Bean(name = "configFile")
     public String configFile() {
